@@ -84,6 +84,8 @@ section {
     position: relative;
 }
 
+/* Hero Style End */
+
  .hero-form {
      border: 3px solid #024e76;
      background-color: #fce138;
@@ -115,8 +117,9 @@ section {
  }
 
  .hero-form label {
-     margin: 0px;
+     margin: 0 5px;
  }
+
  .hero-form button {
      color: #fce138;
      background-color: #024e76;
@@ -124,7 +127,6 @@ section {
      padding: 10px 20px;
      font-size: 16px;
  }
-    /* Hero Style End */
 
     .intro {
         text-align: center;
@@ -142,24 +144,6 @@ section {
         text-align: center;
         background: #fce138;
     }
-
-    .section-title {
-        font-size: 55px;
-        color: #024e76;
-        margin-bottom: 35px;
-        padding: 0 100px 20px 100px;
-        display: inline-block;
-        border-bottom: 3px solid;
-    }
-
-    .primary-border {
-        border-color: #39a6b2;
-    }
-
-    .secondary-border {
-        border-color: #39a6b2;
-    }
-
     .steps div {
         margin-bottom: 80px;
     }
@@ -182,6 +166,23 @@ section {
 
     .steps span {
         font-size: 38px;
+    }
+
+    .section-title {
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        display: inline-block;
+        border-bottom: 3px solid;
+    }
+
+    .primary-border {
+        border-color: #39a6b2;
+    }
+
+    .secondary-border {
+        border-color: #39a6b2;
     }
 
     .trainers {
@@ -233,7 +234,7 @@ section {
 
     /* REACH OUT STYLES START */
     .contact {
-        text-align: CENTER;
+        text-align: center;
         background: #024e76;
     }
 
@@ -260,7 +261,8 @@ section {
         font-size: 32px;
     }
 
-    contact-info p, .contact-info address {
+    .contact-info p, 
+    .contact-info address {
         margin: 20px 0;
         line-height: 1.5;
         font-size: 20px;
@@ -269,4 +271,33 @@ section {
 
     .contact-info a {
         color: #fce138;
+    }
+
+    /* homepage hero */
+    .hero {
+        margin: 20px;
+        background-color: white;
+        font-size: 20px;
+        color: blue;
+    }
+
+    /* secondary page hero */
+    .hero-secondary {
+        margin: 20px;
+        background-color: black;
+        font-size: 20px;
+        color: red;
+    }
+
+    .page-title {
+        color: #fce138;
+    }
+    
+    .page-title h2 {
+        display: inline-block;
+        border-bottom: 4px solid #fce138;
+        padding: 0 80px 15px 80px;
+        font-weight: normal;
+        font-size: 42px;
+        font-style: italic;
     }
