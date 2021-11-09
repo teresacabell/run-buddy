@@ -5,7 +5,6 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -23,11 +22,6 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-}
-
-header h3 {
-    font-size: 24px;
     margin: 0;
 }
 
@@ -147,67 +141,6 @@ section {
      font-size: 16px;
  }
 
-    .intro p {
-        line-height: 1.7;
-        color: #39a6b2;
-        width: 80%;
-        font-size: 20px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .steps {
-        background: #fce138;
-    }
-
-    .step h3 {
-        color: #024e76;
-        font-size: 46px;
-        flex: 1 30%;
-    }
-
-    .step-info {
-        flex: 2 70%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .step-text p {
-        color: #39a6b2;
-        font-size: 18px;
-    }
-
-    .step-text h4 {
-        font-size: 26px;
-        line-height: 1.5;
-        color: #024e76;
-    }
-
-    .step {
-        margin: 50px auto;
-        padding-bottom: 50px;
-        width: 80%;
-        border-bottom: 1px solid #39a6b2;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .step-img {
-        flex: 1 12%;
-        margin-right: 20px;
-    }
-
-    .step-text {
-        flex: 12;
-    }
-
-    .step-img img {
-        max-width: 100%;
-    }
-
     .section-title {
         font-size: 55px;
         color: #024e76;
@@ -226,16 +159,78 @@ section {
         border-color: #39a6b2;
     }
 
+    .intro p {
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .steps {
+        background: #fce138;
+    }
+
+    .step {
+        margin: 50px auto;
+        padding-bottom: 50px;
+        width: 80%;
+        border-bottom: 1px solid #39a6b2;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .step h3 {
+        color: #024e76;
+        font-size: 46px;
+        flex: 1 30%;
+    }
+
+    .step-info {
+        flex: 2 70%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+      
+    .step-img {
+        flex: 1 12%;
+        margin-right: 20px;
+    }
+
+    .step-img img {
+        max-width: 100%;
+    }
+
+    .step-text {
+        flex: 12;
+    }
+   
+    .step-text p {
+        color: #39a6b2;
+        font-size: 18px;
+    }
+
+    .step-text h4 {
+        font-size: 26px;
+        line-height: 1.5;
+        color: #024e76;
+    }
+
     .trainers {
         width: 100%;
-        margin: 0 ato;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
     .trainer {
-        margin: 0 auto 20px auto;
+        margin: 20px;
         background: #024e76;
         color: #fce138;
         flex: 1;
@@ -248,14 +243,6 @@ section {
     .trainer-bio {
         padding: 25px;
         line-height: 1.3;
-    }
-
-    .text-left {
-        text-align: left;
-    }
-
-    .text-right {
-        text-align: right;
     }
 
     .trainer-bio h3 {
@@ -281,6 +268,17 @@ section {
         color:#fce138;
     }
     
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contact-info > * {
+        flex:1;
+        margin: 15;
+    }
+
     .contact-info iframe {
         height: 400px;
     }
@@ -294,27 +292,11 @@ section {
         font-size: 32px;
     }
 
-    .contact-info p, 
-    .contact-info address {
+    .contact-info p, .contact-info address {
         margin: 20px 0;
         line-height: 1.5;
         font-size: 16px;
         font-style: normal;
-    }
-
-    .contact-info a {
-        color: #fce138;
-    }
-
-    .contact-info {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .contact-info > * {
-        flex:1;
-        margin: 15;
     }
 
     .contact-form input, .contact-form textarea {
@@ -338,6 +320,18 @@ section {
         font-size: 16px;
     }
     
+    .contact-info a {
+        color: #fce138;
+    }
+    
+    .text-left {
+        text-align: left;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
     .flex-row{
         display: flex;
     }
